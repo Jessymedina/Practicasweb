@@ -1,0 +1,25 @@
+/*DOCUMENTO CSS*/
+
+
+
+.item {border: 0px black;
+       border-radius: 150px;
+       padding: 90px;
+       background: rgb(105, 218, 105);
+       box-shadow: 0px 0px 2px black;
+       text-align: center;
+        }
+
+/*SEGUNDA LLAMADA A LA ACCION*/
+.accion2 {padding: 130px 0px;
+          min-height: 450px;
+          background-image: url(../img/JAPON-PORTADA-1080x608.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+            background-size: 680px auto;}
+
+.contenedor {}
+
+.items2 {background: rgba(107, 216, 107, 0.632);
+        min-height: 180px;
+        text-align: center;}

@@ -1,0 +1,84 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+    padding: 0p;}
+
+    header, nav, footer, div, article, aside, section {box-sizing: border-box;}
+
+    body {font-family: 'Caveat', cursive;
+          background-image: url(../img/tartan-wooden-background.jpg);
+          background-size: 100%;
+          background-attachment: fixed;
+          text-align: center;}
+    
+    h1 {text-align: center;
+        color: whitesmoke;}
+    h2 {font-size: 40px;
+        margin-bottom: 20px;
+        }
+
+    .hed {display: block;
+          background-color: rgba(255, 52, 52, 0.753);
+          width: 100%;
+          height: 70px;
+          padding-top: 10px;
+         }
+    
+    .sec1 {background-color: rgba(245, 245, 245, 0.774);
+           margin-top: 100px;
+           width: 100%;
+             }
+
+    .contenedor {display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;}
+    
+    .texto {margin: 10px 105px 20px 135px;
+           font-size: 30px;}
+
+    .imgg1 {background-image: url(../img/lasagna-original..jpg);
+            width: 50%;
+            margin-right: 30px;
+            padding-right: 30px;
+            justify-content: center;
+            }
+
+
+    .sec2 {background-color: rgba(245, 245, 245, 0.774);
+            margin-top: 100px;   
+            display: block;      
+            display: flex;
+            justify-content: space-around;
+           }
+    
+    #h22 {margin-top: 20px;}
+
+    .container {display: flex;
+                }
+
+    .contenedor2 {font-size: 20px;
+                  margin: 10px auto 50px auto;
+                  padding-bottom: 10px;
+                  }
+    
+    .contenedorimg {display: flex;
+                     flex-direction: row;
+                     width: 100%;
+                     min-height: 10px;
+                     padding: 15px;
+                    }
+
+     .item {width: 170px;
+            height: 130px;
+            margin: 0px 1%;
+            border-radius: 15px;}
+
+    .m1 {background-image: url(../img/ajo.jpg);
+    }
+    .m2 {background-image: url(../img/carne.jpg);}
+    .m3 {background-image: url(../img/apio.jpg);}
+    .m4 {background-image: url(../img/tomate.jpg);}
+    .m5 {background-image: url(../img/pasta.jpeg);}
+    .m6 {background-image: url(../img/tomillo-1.jpg);
+        }

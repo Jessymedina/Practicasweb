@@ -1,0 +1,41 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+  padding: 0;}
+
+header, nav, footer, div, article, aside, section {box-sizing: border-box;}
+
+.container {width: 100%;
+            min-height: 450px;
+            padding: 15px;
+            background: rgba(11, 240, 179, 0.666);
+            margin: 50px auto;
+            display: flex;
+            flex-direction: column;}
+
+.item {min-height: 150px;
+       background: rgb(0, 157, 255);
+       text-align: center;
+        width: 100%;
+        margin: 15px 0px;}
+
+@media only screen and (min-width:600px) {
+
+    .container {background: red;}
+    .item {background: rgba(244, 244, 48, 0.701);}
+                                        }
+                                
+ @media only screen and (min-width:992px) {
+
+  .container {background: rgb(50, 244, 73);
+            justify-content: space-between;
+            flex-direction: row;
+            }
+
+  .item {background: rgb(255, 255, 255);
+        text-align: left;
+        color: black;
+        font-size: 2em;
+        width: 45%;}
+                                            }
+

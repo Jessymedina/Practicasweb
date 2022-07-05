@@ -1,0 +1,35 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+    padding: 0p;}
+
+   
+
+    body {background-image: url(../img/—Pngtree—pastel\ rainbow\ colored\ gradient\ background_1179850.jpg);    
+          background-size: auto; 
+          background-attachment: fixed;
+          font-family: 'Raleway', sans-serif;}
+
+    .hed {display: block;
+          width: 100%;
+          background-color: rgba(245, 245, 245, 0.534);
+          min-height: 60px;
+          text-align: center;
+          }
+
+    h1 {padding-top: 10px;}
+
+    h2 {margin: 20px auto;}
+
+    #princi {}
+
+    sec1 {display: block;
+            }
+
+    sec1, sec2, sec3, p {line-height: 1em;
+                         padding-bottom: 1em;}
+
+    img {width: 60%;
+         margin-bottom: 30px;}
+
+

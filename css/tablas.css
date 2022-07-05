@@ -1,0 +1,19 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+   padding: 0;}
+
+#cuerpo table {background: rgba(213, 15, 15, 0.625);}
+
+.videos {width: 60%;    
+        display: flex;
+        min-height: 1px;
+        margin: auto; 
+        background: rgba(128, 5, 169, 0.673);
+        padding: 15px;}
+
+.videos section {display: block;
+                 width: 50%;}
+
+.videos iframe, video {width: 100%;
+                       height: 300px;}

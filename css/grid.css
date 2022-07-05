@@ -1,0 +1,16 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+    padding: 0p;}
+
+    header, nav, footer, div, article, aside, section {box-sizing: border-box;
+    display: block;}
+
+
+.contenedor {background: black !important;
+            min-height: 300px;
+            padding: 15px;}
+
+
+.items {background: orange !important;
+        min-height: 100px;}

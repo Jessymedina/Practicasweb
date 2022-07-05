@@ -1,0 +1,52 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+    padding: 0p;}
+
+    header, nav, footer, div, article, aside, section {box-sizing: border-box;}
+
+    .hed {display: block;
+          background-color: whitesmoke;
+          width: 100%;
+          margin-bottom: 20px;
+          min-height: 80px;}
+
+    h1 {font-family: 'League Gothic', sans-serif;
+        font-size: 4em;}
+    h3 {color: white;}
+          
+
+    body {background-image: url(../img/NO04wt.jpg);
+          background-size: 100%;
+          width: 100%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;}
+    
+    .contenedorimg {}
+    
+    img {width: 60%;
+        border-radius: 3px;}
+
+    .contenedorinfo {background-color: rgba(245, 245, 245, 0.849);
+                     display: flex;
+                     justify-content: center;
+                     margin: 30px auto;
+                     width: 70%;
+                     padding: 20px;
+                    justify-content: space-around;}
+    
+    .contenedorinfo2 {background-color: rgba(245, 245, 245, 0.849);
+        display: flex;
+        justify-content: center;
+        margin: 30px auto;
+        width: 70%;
+        padding: 20px;
+       justify-content: space-around;}
+
+    footer {background-color: black;
+            font-style: italic;
+            min-height: 30px;
+            }
+    
+    
+

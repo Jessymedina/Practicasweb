@@ -1,0 +1,46 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+   padding: 0p;}
+
+   body {font-family: 'Anton', sans-serif;}
+
+   .cabe {display: block;   
+          width: 100%;  
+        min-height: 80px;   
+        background: rgb(177, 11, 249);}
+
+    h4 {text-align: center;
+        line-height: 35px;
+        font-size: 3em;
+        padding-top: 20px;
+        text-transform: uppercase;
+        font-family: 'Anton', sans-serif;}
+
+    #principal {display: block;
+                width: 500px;
+                min-height: 1px;    
+                margin: 30px auto;}
+    
+    h1, h2 {text-align: center;}
+
+
+    .contenedor {display: flex;
+                flex-direction: row;
+                width: 100%;
+                margin-bottom: 8px;
+                /*background: rgba(255, 166, 0, 0.468);*/
+                padding: 15px;}
+
+    .item {width: 164px;
+           background: rgba(26, 238, 157, 0.742);
+           height: 130px;
+           margin: 0px 1%;
+           border-radius: 15px;}
+    
+    .food1{background-image: url(../img/food1.jpg);}
+    .food2{background-image: url(../img/food2.jpg);}
+    .food3{background-image: url(../img/food3.jpg);}
+    .food4{background-image: url(../img/food4.jpg);}
+    .food5{background-image: url(../img/food5.jpg);
+           width: 330px;}

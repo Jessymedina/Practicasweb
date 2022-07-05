@@ -1,0 +1,17 @@
+/*DOCUMENTO CSS*/
+* {/*font-size: 20px;*/
+   margin: 0px;
+   padding: 0px;}
+
+body{background-color: #84de84e5;}
+
+h1{margin: 20px;
+   color: red;
+   font-size: 3em;
+   text-align: center;}
+
+h2{color: yellow;}
+h3, h5{color: orange;}
+h4, h6{color: purple;}
+
+.ache1 {text-align: left;}
